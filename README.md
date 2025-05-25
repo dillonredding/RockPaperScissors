@@ -4,13 +4,19 @@ A solution to [the 2nd challenge of 100 Days of SwiftUI](https://www.hackingwith
 
 The user is presented with a random move and is asked to select either the winning or losing move.
 
-![Win scenario](Docs/Assets/WinScenario.png)
-![Lose scenario](Docs/Assets/LoseScenario.png)
+<div style="display: flex; justify-content: space-between;">
+  <img src="Docs/Assets/WinScenario.png" width="45%">
+  <img src="Docs/Assets/LoseScenario.png" width="45%">
+</div>
 
 If the user makes the correct move, they get a point. Otherwise, they're presented with an alert of the correct move.
 
-![Incorrect answer](Docs/Assets/IncorrectAnswer.png)
+<div style="display: flex; justify-content: center;">
+  <img src="Docs/Assets/IncorrectAnswer.png" width="45%">
+</div>
 
 After 10 rounds, the game is over and the player is shown the final result and given the option to play again.
 
-![Game over](Docs/Assets/GameOver.png)
+<div style="display: flex; justify-content: center;">
+  <img src="Docs/Assets/GameOver.png" width="45%">
+</div>
