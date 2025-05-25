@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var showingResult = false
 
     var alertTitle: String {
-        return "\(compMove) \(correctMoveRel) \(correctMove)"
+        return "Oops! \(compMove) \(correctMoveRel) \(correctMove)"
     }
 
     var compMove: String {
@@ -30,11 +30,6 @@ struct ContentView: View {
 
     var possibleMoves: [String] {
         return moves.filter { $0 != compMove }
-    }
-
-    var prompt: String {
-        let desiredResult = shouldWin ? "winning" : "losing"
-        return "Make the \(desiredResult) move"
     }
 
     var body: some View {
@@ -115,12 +110,12 @@ struct ContentView: View {
     }
 
     private func resetGame() {
+        showingResult = false
         withAnimation {
             compMoveIndex = Int.random(in: 0...2)
             shouldWin.toggle()
             score = 0
             round = 1
-            showingResult = false
         }
     }
 }
