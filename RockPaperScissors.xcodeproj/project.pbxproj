@@ -50,6 +50,11 @@
 			path = RockPaperScissorsUITests;
 			sourceTree = "<group>";
 		};
+		5126B9202DE3A04F002A2E45 /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Docs;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 		5126B8C02DE23C1C002A2E45 = {
 			isa = PBXGroup;
 			children = (
+				5126B9202DE3A04F002A2E45 /* Docs */,
 				5126B9102DE26EEE002A2E45 /* README.md */,
 				5126B8CB2DE23C1D002A2E45 /* RockPaperScissors */,
 				5126B8D92DE23C20002A2E45 /* RockPaperScissorsTests */,
@@ -115,6 +121,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5126B8CB2DE23C1D002A2E45 /* RockPaperScissors */,
+				5126B9202DE3A04F002A2E45 /* Docs */,
 			);
 			name = RockPaperScissors;
 			packageProductDependencies = (
